@@ -90,116 +90,171 @@
 
 <script type="application/ld+json">
 {
-  "@context":"https://schema.org",
-  "@graph":[
+  "@context": "https://schema.org",
+  "@graph": [
+
     {
-      "@type":"WebSite",
-      "@id":"https://yaarwinindian.com/#website",
-      "url":"https://yaarwinindian.com/",
-      "name":"Yaarwin",
-      "description":"Yaarwin online gaming platform with Wingo Color Prediction, Aviator, Teen Patti and Andar Bahar games.",
-      "inLanguage":"en-IN"
-    },
-    {
-      "@type":"Organization",
-      "@id":"https://yaarwinindian.com/#organization",
-      "name":"Yaarwin",
-      "url":"https://yaarwinindian.com/",
-      "logo":{
-        "@type":"ImageObject",
-        "url":"https://yaarwinindian.com/logo.png"
+      "@type": "WebSite",
+      "@id": "https://yaarwinindian.com/#website",
+      "url": "https://yaarwinindian.com/",
+      "name": "Yaarwin",
+      "description": "Yaarwin online gaming platform with Wingo Color Prediction, Aviator, Teen Patti and Andar Bahar games.",
+      "inLanguage": "en-IN",
+      "publisher": {
+        "@id": "https://yaarwinindian.com/#organization"
       },
-      "sameAs":[
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://yaarwinindian.com/search?q={search_term_string}",
+        "query-input": "required name=search_term_string"
+      }
+    },
+
+    {
+      "@type": "Organization",
+      "@id": "https://yaarwinindian.com/#organization",
+      "name": "Yaarwin",
+      "url": "https://yaarwinindian.com/",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://yaarwinindian.com/logo.png"
+      },
+      "sameAs": [
         "https://t.me/+4RzaZekQngA1NDA1",
         "https://t.me/Yaarwinsbonus_bot"
       ]
     },
+
     {
-      "@type":"FAQPage",
-      "@id":"https://yaarwinindian.com/#faq",
-      "mainEntity":[
+      "@type": "Product",
+      "@id": "https://yaarwinindian.com/#product",
+      "name": "Yaarwin Online Gaming Platform",
+      "description": "Play exciting online games on Yaarwin with fast access, smooth gameplay, secure platform technology and engaging entertainment features.",
+      "brand": {
+        "@type": "Brand",
+        "name": "Yaarwin"
+      },
+      "url": "https://yaarwinindian.com/",
+      "keywords": [
+        "Yaarwin",
+        "Yaarwin India",
+        "online gaming platform",
+        "Wingo",
+        "Aviator game",
+        "Teen Patti",
+        "Andar Bahar",
+        "casino games",
+        "sports betting",
+        "online entertainment",
+        "mobile gaming"
+      ],
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "url": "https://yaarwinindian.com/"
+      }
+    },
+
+    {
+      "@type": "FAQPage",
+      "@id": "https://yaarwinindian.com/#faq",
+      "mainEntity": [
+
         {
-          "@type":"Question",
-          "name":"Is Yaarwin safe to use?",
-          "acceptedAnswer":{
-            "@type":"Answer",
-            "text":"Yaarwin is used by many players daily for online gaming and earning. While thousands of users actively play and withdraw, it is recommended to start with a small amount and understand the platform before investing more."
+          "@type": "Question",
+          "name": "Is Yaarwin safe to use?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yaarwin is used by many players daily for online gaming and earning. Users should start with small amounts and understand the platform before investing more."
           }
         },
+
         {
-          "@type":"Question",
-          "name":"How long do withdrawals take?",
-          "acceptedAnswer":{
-            "@type":"Answer",
-            "text":"Most withdrawals are processed within 5 to 30 minutes depending on the payment method and server load. During peak time it may take a few hours."
+          "@type": "Question",
+          "name": "How long do withdrawals take?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Most withdrawals are processed within 5 to 30 minutes depending on payment method and server load."
           }
         },
+
         {
-          "@type":"Question",
-          "name":"What is the minimum deposit amount?",
-          "acceptedAnswer":{
-            "@type":"Answer",
-            "text":"The minimum deposit usually starts from ₹100 to ₹200 making it easy for new users to begin."
+          "@type": "Question",
+          "name": "What is the minimum deposit amount?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The minimum deposit usually starts from ₹100 to ₹200 for new users."
           }
         },
+
         {
-          "@type":"Question",
-          "name":"What is the minimum withdrawal amount?",
-          "acceptedAnswer":{
-            "@type":"Answer",
-            "text":"Users can withdraw starting from around ₹100 to ₹200 depending on account status and selected method."
+          "@type": "Question",
+          "name": "What is the minimum withdrawal amount?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Users can generally withdraw starting from ₹100 to ₹200 depending on the selected method."
           }
         },
+
         {
-          "@type":"Question",
-          "name":"Why is the app not installing on my phone?",
-          "acceptedAnswer":{
-            "@type":"Answer",
-            "text":"Enable install from unknown sources in phone settings, ensure enough storage is available and re-download the APK file before trying again."
+          "@type": "Question",
+          "name": "Why is the app not installing on my phone?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Enable installation from unknown sources, ensure enough storage space and download the APK again before retrying."
           }
         },
+
         {
-          "@type":"Question",
-          "name":"Do I need a referral code to register?",
-          "acceptedAnswer":{
-            "@type":"Answer",
-            "text":"In some cases a referral code is required to unlock bonuses and extra rewards during registration."
+          "@type": "Question",
+          "name": "Do I need a referral code to register?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Some promotions and bonus offers may require a referral code during registration."
           }
         },
+
         {
-          "@type":"Question",
-          "name":"Can I use UPI for deposit and withdrawal?",
-          "acceptedAnswer":{
-            "@type":"Answer",
-            "text":"Yes, most users can use UPI, Paytm or bank transfer for quick deposits and withdrawals."
+          "@type": "Question",
+          "name": "Can I use UPI for deposit and withdrawal?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, users can commonly use UPI, Paytm and bank transfer for deposits and withdrawals."
           }
         },
+
         {
-          "@type":"Question",
-          "name":"What should I do if my withdrawal is delayed?",
-          "acceptedAnswer":{
-            "@type":"Answer",
-            "text":"Users should wait for some time because server delays may happen during peak hours. If the issue continues they can contact customer support through the app or official Telegram channel."
+          "@type": "Question",
+          "name": "What should I do if my withdrawal is delayed?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Withdrawal delays may happen during peak hours. Users should wait for some time and contact official support if needed."
           }
         },
+
         {
-          "@type":"Question",
-          "name":"Can I create multiple accounts?",
-          "acceptedAnswer":{
-            "@type":"Answer",
-            "text":"It is recommended to use only one account per user because multiple accounts may lead to restrictions or suspension."
+          "@type": "Question",
+          "name": "Can I create multiple accounts?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Using multiple accounts may lead to restrictions, so it is recommended to use only one account per user."
           }
         },
+
         {
-          "@type":"Question",
-          "name":"Is there any bonus for new users?",
-          "acceptedAnswer":{
-            "@type":"Answer",
-            "text":"Yes, new users often receive welcome bonus rewards after registration or first deposit. Bonus offers may change over time."
+          "@type": "Question",
+          "name": "Is there any bonus for new users?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "New users may receive welcome bonuses or rewards after registration or first deposit."
           }
         }
+
       ]
     }
+
   ]
 }
 </script>
