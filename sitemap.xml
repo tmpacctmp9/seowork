@@ -3,7 +3,7 @@
 
   <url>
     <loc>https://yaarwinindian.com/</loc>
-    <lastmod>2026-05-31</lastmod>
+    <lastmod>2026-06-16</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -11,21 +11,70 @@
   <url>
     <loc>https://yaarwinindian.com/yaarwin-register</loc>
     <lastmod>2026-06-16</lastmod>
-    <changefreq>weekly</changefreq>
+    <changefreq>daily</changefreq>
     <priority>0.98</priority>
   </url>
 
   <url>
     <loc>https://yaarwinindian.com/yaarwin-login</loc>
     <lastmod>2026-06-16</lastmod>
-    <changefreq>weekly</changefreq>
+    <changefreq>daily</changefreq>
     <priority>0.98</priority>
   </url>
 
   <url>
+    <loc>https://yaarwinindian.com/yaarwin-signup</loc>
+    <lastmod>2026-06-16</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.99</priority>
+  </url>
+
+  <url>
+    <loc>https://yaarwinindian.com/verify-official-site</loc>
+    <lastmod>2026-06-16</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.98</priority>
+  </url>
+
+  <url>
+    <loc>https://yaarwinindian.com/yaarwin-app-download</loc>
+    <lastmod>2026-06-16</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.98</priority>
+  </url>
+
+  <url>
+    <loc>https://yaarwinindian.com/yaarwin-gift-codes</loc>
+    <lastmod>2026-06-16</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <url>
     <loc>https://yaarwinindian.com/wingo</loc>
-    <lastmod>2026-05-31</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-06-16</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://yaarwinindian.com/k3-game</loc>
+    <lastmod>2026-06-16</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <url>
+    <loc>https://yaarwinindian.com/5d-game</loc>
+    <lastmod>2026-06-16</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <url>
+    <loc>https://yaarwinindian.com/blog</loc>
+    <lastmod>2026-06-16</lastmod>
+    <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
 
@@ -37,128 +86,79 @@
   </url>
 
   <url>
-    <loc>https://yaarwinindian.com/yaarwin-gift-codes</loc>
+    <loc>https://yaarwinindian.com/blog/how-to-register-yaarwin</loc>
     <lastmod>2026-06-16</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.85</priority>
-  </url>
-
-  <url>
-    <loc>https://yaarwinindian.com/yaarwin-signup</loc>
-    <lastmod>2026-06-16</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.99</priority>
-  </url>
-
-  <url>
-    <loc>https://yaarwinindian.com/verify-official-site</loc>
-    <lastmod>2026-06-16</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.98</priority>
-  </url>
-
-  <url>
-    <loc>https://yaarwinindian.com/yaarwin-app-download</loc>
-    <lastmod>2026-06-16</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.98</priority>
-  </url>
-
-  <url>
-    <loc>https://yaarwinindian.com/k3-game</loc>
-    <lastmod>2026-05-31</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.85</priority>
-  </url>
-
-  <url>
-    <loc>https://yaarwinindian.com/5d-game</loc>
-    <lastmod>2026-05-31</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.85</priority>
-  </url>
-
-  <url>
-    <loc>https://yaarwinindian.com/blog</loc>
-    <lastmod>2026-05-31</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-
-  <url>
-    <loc>https://yaarwinindian.com/blog/how-to-register-yaarwin</loc>
-    <lastmod>2026-05-31</lastmod>
-    <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
     <loc>https://yaarwinindian.com/blog/wingo-color-prediction-guide</loc>
-    <lastmod>2026-05-31</lastmod>
-    <changefreq>monthly</changefreq>
+    <lastmod>2026-06-16</lastmod>
+    <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
     <loc>https://yaarwinindian.com/blog/yaarwin-vs-daman-tiranga</loc>
-    <lastmod>2026-05-31</lastmod>
-    <changefreq>monthly</changefreq>
+    <lastmod>2026-06-16</lastmod>
+    <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
     <loc>https://yaarwinindian.com/blog/yaarwin-gift-codes-guide</loc>
-    <lastmod>2026-05-31</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-06-16</lastmod>
+    <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
     <loc>https://yaarwinindian.com/blog/aviator-game-guide</loc>
-    <lastmod>2026-05-31</lastmod>
-    <changefreq>monthly</changefreq>
+    <lastmod>2026-06-16</lastmod>
+    <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
     <loc>https://yaarwinindian.com/blog/responsible-gaming-tips</loc>
-    <lastmod>2026-05-31</lastmod>
-    <changefreq>monthly</changefreq>
+    <lastmod>2026-06-16</lastmod>
+    <changefreq>daily</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
     <loc>https://yaarwinindian.com/blog/is-colour-prediction-legal-india</loc>
-    <lastmod>2026-05-31</lastmod>
-    <changefreq>monthly</changefreq>
+    <lastmod>2026-06-16</lastmod>
+    <changefreq>daily</changefreq>
     <priority>0.75</priority>
   </url>
 
   <url>
     <loc>https://yaarwinindian.com/about</loc>
-    <lastmod>2026-05-31</lastmod>
-    <changefreq>monthly</changefreq>
+    <lastmod>2026-06-16</lastmod>
+    <changefreq>daily</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
     <loc>https://yaarwinindian.com/contact</loc>
-    <lastmod>2026-05-31</lastmod>
-    <changefreq>monthly</changefreq>
+    <lastmod>2026-06-16</lastmod>
+    <changefreq>daily</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
     <loc>https://yaarwinindian.com/privacy</loc>
-    <lastmod>2026-05-08</lastmod>
-    <changefreq>monthly</changefreq>
+    <lastmod>2026-06-16</lastmod>
+    <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
 
   <url>
     <loc>https://yaarwinindian.com/terms</loc>
-    <lastmod>2026-05-08</lastmod>
-    <changefreq>monthly</changefreq>
+    <lastmod>2026-06-16</lastmod>
+    <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
 
