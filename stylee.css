@@ -2221,4 +2221,238 @@ table {
     .topbar-nav {
         display: none !important
     }
+
+    .domain-checker-row {
+        flex-direction: column
+    }
+
+    .domain-checker-btn {
+        width: 100%
+    }
+}
+
+.domain-checker {
+    background: #fff;
+    border: 2px solid #22c55e;
+    border-radius: 14px;
+    padding: 24px;
+    margin-bottom: 28px;
+    box-shadow: 0 8px 32px rgba(34, 197, 94, .15)
+}
+
+.domain-checker-label {
+    display: block;
+    font-size: 14px;
+    font-weight: 700;
+    color: #111;
+    margin-bottom: 12px
+}
+
+.domain-checker-row {
+    display: flex;
+    gap: 10px
+}
+
+.domain-checker-input {
+    flex: 1;
+    min-width: 0;
+    border: 2px solid #d8f5df;
+    border-radius: 8px;
+    padding: 14px 16px;
+    font-size: 15px;
+    outline: none;
+    transition: border-color .2s
+}
+
+.domain-checker-input:focus {
+    border-color: #22c55e
+}
+
+.domain-checker-btn {
+    background: #22c55e;
+    border: none;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 700;
+    padding: 14px 22px;
+    border-radius: 8px;
+    cursor: pointer;
+    white-space: nowrap;
+    transition: background .2s
+}
+
+.domain-checker-btn:hover {
+    background: #16a34a
+}
+
+.domain-checker-result {
+    margin-top: 16px;
+    padding: 14px 18px;
+    border-radius: 8px;
+    font-size: 14px;
+    line-height: 1.7
+}
+
+.domain-checker-result code {
+    font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+    font-size: 13px;
+    background: rgba(0, 0, 0, .06);
+    padding: 2px 6px;
+    border-radius: 4px
+}
+
+.domain-result-ok {
+    background: #f0fdf4;
+    border: 1px solid #86efac;
+    color: #166534
+}
+
+.domain-result-bad {
+    background: #fef2f2;
+    border: 1px solid #fca5a5;
+    color: #991b1b
+}
+
+.domain-result-warn {
+    background: #fffbeb;
+    border: 1px solid #fde68a;
+    color: #92400e
+}
+
+.domain-checker-result i {
+    margin-right: 6px
+}
+
+.official-domains-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    gap: 18px;
+    margin: 28px 0 36px
+}
+
+.official-domain-card {
+    background: #fff;
+    border: 2px solid #e8f8ec;
+    border-radius: 12px;
+    padding: 22px 20px;
+    transition: border-color .2s, box-shadow .2s
+}
+
+.official-domain-verified {
+    border-color: #86efac
+}
+
+.official-domain-card:hover {
+    border-color: #22c55e;
+    box-shadow: 0 8px 24px rgba(34, 197, 94, .12)
+}
+
+.official-domain-status {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 12px;
+    font-weight: 700;
+    color: #16a34a;
+    margin-bottom: 10px
+}
+
+.official-domain-card h3 {
+    font-size: 18px;
+    font-weight: 800;
+    color: #111;
+    margin-bottom: 8px;
+    font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace
+}
+
+.official-domain-card p {
+    font-size: 14px;
+    color: #555;
+    line-height: 1.65;
+    margin-bottom: 14px
+}
+
+.official-domain-link {
+    font-size: 14px;
+    font-weight: 700;
+    color: #16a34a;
+    text-decoration: none
+}
+
+.official-domain-link:hover {
+    color: #15803d;
+    text-decoration: underline
+}
+
+.verify-cta-section {
+    background: linear-gradient(180deg, #f4fff7 0%, #fff 100%);
+    border-bottom: 1px solid #e8f8ec
+}
+
+.verify-cta-box {
+    background: #fff;
+    border: 2px solid #22c55e;
+    border-radius: 16px;
+    padding: clamp(28px, 4vw, 48px);
+    box-shadow: 0 12px 40px rgba(34, 197, 94, .12)
+}
+
+.signup-steps-3 {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+    gap: 18px;
+    margin: 28px 0 36px
+}
+
+.signup-step-card {
+    background: #fff;
+    border: 2px solid #e8f8ec;
+    border-radius: 12px;
+    padding: 24px 20px;
+    text-align: center;
+    transition: border-color .2s, box-shadow .2s
+}
+
+.signup-step-card:hover {
+    border-color: #22c55e;
+    box-shadow: 0 8px 24px rgba(34, 197, 94, .12)
+}
+
+.signup-step-icon {
+    width: 44px;
+    height: 44px;
+    margin: 0 auto 14px;
+    background: #22c55e;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 800;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.signup-step-card h3 {
+    font-size: 17px;
+    font-weight: 700;
+    color: #111;
+    margin-bottom: 10px
+}
+
+.signup-step-card p {
+    font-size: 14px;
+    color: #555;
+    line-height: 1.65;
+    margin-bottom: 14px
+}
+
+.signup-step-link {
+    font-size: 14px;
+    font-weight: 700;
+    color: #16a34a;
+    text-decoration: none
+}
+
+.signup-step-link:hover {
+    text-decoration: underline
 }
